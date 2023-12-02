@@ -1,0 +1,16 @@
+.footer{
+    background-color: #25263f;
+    color: white;
+
+}
+.footer h5,h6{
+    text-align: center;
+}
+.footer h6{
+    color: #9da3aa;
+    margin: 20px;
+}
+.footer h5{
+    margin: 20px;
+    margin-bottom: 0px;
+}

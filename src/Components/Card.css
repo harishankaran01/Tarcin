@@ -1,0 +1,137 @@
+.card .imd img{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    left: 24%;
+    top: 22%;
+    border-radius: 50%;
+    
+}
+
+.card{
+    /* display: flex; */
+    width:380px;
+   
+   
+    
+    position: relative;
+    box-shadow: 0 4px 13px 0 rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    border-radius: 10px ;
+    padding: 2rem;
+    transition: 0.2s;
+    
+}
+.card:hover{
+    transform: translateY(-20px);
+
+}
+
+.imd{
+    width: 50px;
+     height: 50px;
+     left:160px;
+     top: -20px;
+    background-color: #6071e6;
+    position: absolute;
+    border-radius: 50%;
+}
+.card h3{
+    margin-top: 25px;
+    text-align: center;
+
+}
+.card p{
+    margin: 10px;
+    text-align: justify;
+}
+@media(max-width:1200px){
+    .cardss{
+        gap:20px;
+    }
+    .card{
+        width: 340px;
+    }
+    .imd{
+        left:130px;
+        top: -20px;
+    }
+}
+@media(max-width:1100px) {
+    /* .cardss {
+        gap: 20px;
+    } */
+    .imd {
+             left: 130px;
+             top: -20px;
+         }
+    .card {
+        width: 300px;
+    }
+}
+@media(max-width:1000px) {
+    .cardss {
+        gap: 20px;
+    }
+
+    .card {
+        width: 280px;
+    }
+  .imd {
+    width: 50px;
+    height: 50px;
+    left: 110px;
+    top: -20px;
+    background-color: #6071e6;
+    position: absolute;
+    border-radius: 50%;
+         }
+}
+@media (max-width:930px){
+.cardss {
+        gap: 10px;
+    }
+    .card {
+     width: 250px;
+     min-width: 190px;
+    }
+    .imd {
+    width: 50px;
+    height: 50px;
+    left: 90px;
+    top: -20px;
+    background-color: #6071e6;
+    position: absolute;
+    border-radius: 50%;
+    }
+
+}
+@media(max-width:790){
+    .cardss{
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        gap:40px;
+    }
+    .card {
+        width: 80%;
+      
+    }
+}
+
+@media(max-width:820px){
+    .cardss{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        gap: 30px;
+    
+    }
+    .card{
+        width: 80%;
+    }
+    .imd{
+        left: 45%;
+    }
+}
